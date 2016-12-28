@@ -1,0 +1,2 @@
+C:\Users\Shawdow\Documents\GitHub\osu\osu.Game.Modes.Dodge\obj\Release\osu.Game.Modes.Dodge.csprojResolveAssemblyReference.cache
+C:\Users\Shawdow\Documents\GitHub\Shawdooow\osu\osu.Game.Modes.Dodge\obj\Release\osu.Game.Modes.Dodge.csprojResolveAssemblyReference.cache
