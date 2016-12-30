@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9A367C9-4C1A-489F-9B05-A0CEA2B53B58}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>osu.Game.Resources</RootNamespace>
+    <AssemblyName>osu.Game.Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Menu\logo%402x.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-glow.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-glow%402x.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-hit.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-hit%402x.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-up.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-up%402x.png" />
+    <EmbeddedResource Include="Beatmaps\241526 Soleily - Renatus.osz" />
+    <EmbeddedResource Include="Samples\Sliderbar\sliderbar.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-fail.png" />
+    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-fail%402x.png" />
+    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-idle.png" />
+    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-idle%402x.png" />
+    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-kiai.png" />
+    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-kiai%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Shaders\sh_CircularProgressBar.fs" />
+    <EmbeddedResource Include="Shaders\sh_CursorTrail.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Menu\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\welcome.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Exo2.0-Regular.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Exo2.0-Regular_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Keyboard\key-caps.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-confirm.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-delete.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-movement.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-press-1.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-press-2.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-press-3.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-press-4.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\FontAwesome.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\FontAwesome_0.png" />
+    <EmbeddedResource Include="Fonts\FontAwesome_1.png" />
+    <EmbeddedResource Include="Fonts\FontAwesome_2.png" />
+    <EmbeddedResource Include="Fonts\FontAwesome_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\osuFont.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\osuFont_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Cursor\cursor%402x.png" />
+    <EmbeddedResource Include="Textures\Cursor\cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Menu\background%402x.jpg" />
+    <EmbeddedResource Include="Textures\Menu\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Tracks\circles.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Backgrounds\bg3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Backgrounds\bg1.jpg" />
+    <EmbeddedResource Include="Textures\Backgrounds\bg2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Backgrounds\bg4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\osu\approachcircle%402x.png" />
+    <EmbeddedResource Include="Textures\Play\osu\disc%402x.png" />
+    <EmbeddedResource Include="Textures\Play\osu\number%402x.png" />
+    <EmbeddedResource Include="Textures\Play\osu\ring%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\osu\ring-glow%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\osu\triangle%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Exo2.0-Black.fnt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-BlackItalic.fnt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-Bold.fnt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-BoldItalic.fnt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-Light.fnt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-LightItalic.fnt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-Medium.fnt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-MediumItalic.fnt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-RegularItalic.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Exo2.0-BlackItalic_0.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-BlackItalic_1.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-Black_0.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-Black_1.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-BoldItalic_0.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-BoldItalic_1.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-Bold_0.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-license.txt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-LightItalic_0.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-Light_0.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-MediumItalic_0.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-Medium_0.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-RegularItalic_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Exo2.0-SemiBoldItalic_0.png" />
+    <EmbeddedResource Include="Fonts\Exo2.0-SemiBold_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Exo2.0-SemiBold.fnt" />
+    <EmbeddedResource Include="Fonts\Exo2.0-SemiBoldItalic.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Venera_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Venera.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\FontAwesome_4.png" />
+    <EmbeddedResource Include="Fonts\FontAwesome_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Cursor\cursortrail%402x.png" />
+    <EmbeddedResource Include="Textures\Cursor\cursortrail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Online\avatar-guest%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\seeya.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Checkbox\check-off.mp3" />
+    <EmbeddedResource Include="Samples\Checkbox\check-on.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Menu\menu-edit-click.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menu-freeplay-click.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menu-multiplayer-click.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menu-play-click.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menuback.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menuclick.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menuhit.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\SongSelect\select-difficulty.mp3" />
+    <EmbeddedResource Include="Samples\SongSelect\select-expand.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Menu\heartbeat.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Samples\Sliderbar\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Gameplay\drum-hitclap.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-hitfinish.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-hitnormal.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-hitwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-sliderslide.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-slidertick.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-sliderwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-hitclap.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-hitfinish.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-hitnormal.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-hitwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-sliderslide.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-slidertick.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-sliderwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-hitclap.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-hitfinish.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-hitnormal.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-hitwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-sliderslide.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-slidertick.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-sliderwhistle.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
