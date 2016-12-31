@@ -41,9 +41,10 @@ namespace osu.Game.Modes.Touhosu.Objects.Drawables
         }
 
         //TODO Fix this
+        [BackgroundDependencyLoader]
         private void load(TextureStore textures)
         {
-            player.Texture = textures.Get(@"play/Touhosu/Reimu");
+            reimu.Texture = textures.Get(@"play/Touhosu/Reimu");
         }
     }
 }
